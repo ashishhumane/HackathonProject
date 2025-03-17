@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+J:ital,wght@1,100..400&family=Protest+Revolution&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1d22;
+}
+
+.navbar {
+    /* margin-left: 400px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #1e1d22;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); */
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo img {
+    height: 216px;
+    width: 429px;
+}
+
+.nav-links {
+    /* margin-left: 790px; */
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #bbbbbb;
+}
+
+.auth-button {
+    /* margin-left: 10px; */
+    background: linear-gradient(to top, #4a90e2, #a4508b);
+    color: white;
+    padding: 15px 25px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.auth-button:hover {
+    opacity: 0.8;
+}
+
+.hero-section {
+    width: 892px;
+    margin: 120px auto;
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 60px;
+}
+
+.hero-section p {
+    width: 825px;
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    margin: 30px 180px;
+}
+
+.hero-section button {
+    /* display: flex; */
+    width: 227px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    background: linear-gradient(to bottom, #b562a8, #004a99);
+    padding: 15px 15px;
+    margin: 10px 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.group {
+    position: absolute;
+    top: 400px;
+    color: white;
+    /* border: 1px solid wheat; */
+}
+
+.group img {
+    filter: drop-shadow(50px 50px 100px #ffbaff)
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+}
+
+.courses-section{
+    background: linear-gradient(to left, #1F008C, #271B33); 
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.courses-wrapper {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 25px;
+}
+
+.courses-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.course-card {
+    background: linear-gradient(#92277B, #2D0E56);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    min-width: 320px;
+    text-align: left;
+    white-space: normal;
+    color: white;
+    transform: scale(0.95);
+    opacity: 0.9;
+}
+
+.course-card:hover {
+    transform: scale(1.05);
+    opacity: 1;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
+}
+
+.explore-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: white;
+    color: #6A0DAD;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.explore-btn:hover {
+    background: #f2f2f2;
+}
+
+.nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 24px;
+    transition: background 0.3s;
+}
+
+.nav-btn:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.prev-btn {
+    left: -40px;
+}
+
+.next-btn {
+    right: -40px;
+}
+
+@media (max-width: 768px) {
+    .course-card {
+        min-width: 260px;
+    }
+
+    .prev-btn,
+    .next-btn {
+        display: none;
+    }
+}
